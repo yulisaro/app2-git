@@ -1,9 +1,7 @@
 ﻿<!doctype html>
-
 <html>
-
- <head>
-  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <head>
+  <meta charset="utf-8"  >
   <title>Datos del alumno</title>
   <!--grupo CSS-->
   <link rel="stylesheet" href="css/tema-app1.min.css"/>
@@ -11,22 +9,22 @@
   <link rel="stylesheet" href="css/jquery.mobile.structure-1.4.5.min.css"/>
  
   <!--grupo JavaScript-->
-  <script src ="js/jquery-1.11.2.min.js"></script>
-  <script src ="js/jquery.mobile-1.4.5.min.js"></script>
-  <!--<script src ="js/acciones.js" type= "text/javascript"></script>-->
- 
-  <script src ="phonegap.js"></script><!--necesario*/-->
+  <script src="js/jquery-1.11.2.min.js"></script>
+  <script src="js/jquery.mobile-1.4.5.min.js"></script>
+ <!--<script src="js/acciones.js"></script>-->
+  <script src="phonegap.js"></script><!--necesario*/-->
+  
  </head>
 
 <body>
 
  <div data-role="page" id="Principal" data-theme="a">
-  <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="a">
+  <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
    <h1> Datos personales del alumno </h1>
   </div> 
-  <div data-role="main" class="iu-content">
-   <div data-role="collapsible" data-comtent-theme="false">
-    <h1>Foto de perfil</h1>
+  <div data-role="main" class="ui-content">
+   <div data-role="collapsible" data-content-theme="false">
+    <h1>Foto del perfil</h1>
     <div>
      <p>Esta es mi imagen del perfil</p>
      <br> 
@@ -37,35 +35,35 @@
    </div>
   </div>
   <div>
-    <ul data-role="listview" data-theme="a" class="ui-listview ui-group-theme-a">
+    <ul data-role="listview" data-theme="b" class="ui-listview ui-group-theme-b">
      <li class="ui-first-child ui-last-child">
       <a href="#Pagina1" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
        <h2>Datos generales</h2>
-       <p>Se muestra el nombre </p> 
+       <p>Se muestra el nombre</p> 
       </a>
      </li>
      <li class="ui-first-child ui-last-child">
       <a href="#Pagina2" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
        <h2>Fecha de nacimiento</h2>
-       <p> Se muestra a fecha de nacimiento </p>  
+       <p> Se muestra el dia, mes y año de nacimiento </p>  
       </a>      
      </li>
      <li class="ui-first-child ui-last-child">
       <a href="#Pagina3" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
        <h2>Domicilio</h2>
-       <p>Se muestra el domicilio</p>  
+       <p>Se muestra el domicilio del alumno</p>  
       </a>      
      </li> 
      <li class="ui-first-child ui-last-child">
       <a href="#Pagina4" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
        <h2>Deporte Favorito</h2>
-       <p>Se muestra el deporte favorito</p> 
+       <p>Muestra el deporte que mas le agrada al alumno</p> 
       </a>      
      </li> 
      <li class="ui-first-child ui-last-child">
       <a href="#Pagina5" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
        <h2>Otros gustos e intereses</h2>
-       <p>Se muestran otros gustos e intereses</p> 
+       <p>Se muestran otros gustos del alumno</p> 
       </a>      
      </li>      
     </ul>
@@ -86,14 +84,14 @@
   </div>
   <div data-role="content" align="center">
    <div>
-    <h2>María Yulissa Reyes Romero</h2>
+    <h2>Reyes Romero María Yulissa</h2>
    </div>
   </div>
   <div data-role="footer" align="center" data-theme="a" data-position="fixed">
    <div>
     <img src="imagenes/persona_rosa.png" width="46" height="46">
    </div>
-   <h4>Aplicación Dos</h4>
+   <h4>Aplicación Dos, MYRR</h4>
   </div>
  </div>
 
@@ -110,12 +108,12 @@
    <div>
     <img src="imagenes/persona_rosa.png" width="46" height="46">
    </div>
-   <h4>Aplicación Dos</h4>
+   <h4>Aplicación Dos, MYRR</h4>
   </div>
  </div>
 
  <div data-role="page" id="Pagina3" data-add-back-btn="true" data-theme="a">
-  <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="a">
+  <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
    <h1>Domicilio</h1> 
   </div>
   <div data-role="content" align="center">
@@ -127,16 +125,16 @@
    <div>
     <img src="imagenes/persona_rosa.png" width="46" height="46">
    </div>
-   <h4>Aplicación Dos </h4>
+   <h4>Aplicación Dos, MYRR</h4>
   </div>
  </div>
 
  <div data-role="page" id="Pagina4" data-add-back-btn="true" data-theme="a">
-  <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="a">
+  <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
    <h1>Deporte favorito</h1> 
   </div>
   <div data-role="content" align="center">
-   <div>
+   <div> 
     <h2>Skate</h2>
     <img src="imagenes/deporte.jpg" width="50%" height="50%">
    </div>
@@ -145,17 +143,17 @@
    <div>
     <img src="imagenes/persona_rosa.png" width="46" height="46">
    </div>
-   <h4>Aplicación Dos</h4>
+   <h4>Aplicación Dos. MYRR</h4>
   </div>
  </div>
 
  <div data-role="page" id="Pagina5" data-add-back-btn="true" data-theme="a">
-  <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="a">
+  <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
    <h1>Gustos e intereses</h1> 
   </div>
   <div data-role="content" align="center">
    <div>
-    <h2>Me gusta mucho leer </h2>
+    <h2>Me gusta mucho leer, escuchar musicay aveces dibujar</h2> 
     <img src="imagenes/pasatiempo.jpg" width="50%" height="50%">
    </div>
   </div>
@@ -163,7 +161,7 @@
    <div>
     <img src="imagenes/persona_rosa.png" width="46" height="46">
    </div>
-   <h4>Aplicación Dos</h4>
+   <h4>Aplicación Dos, MYRR </h4>
   </div>
  </div>
 
